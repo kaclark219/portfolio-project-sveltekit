@@ -9,9 +9,6 @@
         <li>
             <a href="./about-me">About Me</a>
         </li>
-        <li>
-            <a href="./projects">Projects</a>
-        </li>
     </ul>
 </nav>
 <h1>Home</h1>
