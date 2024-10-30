@@ -36,6 +36,13 @@ p {
   line-height: 1.8;
 }
 
+.skills-details {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.8;
+}
+
 .tag {
   font-size: 14px;
   font-weight: 600;
