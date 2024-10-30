@@ -2,6 +2,7 @@
     import '../../style/style.css';
     import name_logo from '$lib/assets/name-logo.png'
     import star_logo from '$lib/assets/star-logo.png'
+    import resume from '$lib/Resume.pdf'
 </script>
 <div class="nav-bar">
     <nav>
@@ -9,13 +10,13 @@
         <img class="star-logo" src={star_logo} alt="Two stars.">
         <ul id="nav-links">
             <li>
-                <a href="./">Home + About Me</a>
+                <a data-sveltekit-preload-data="tap" href="./">Home + About Me</a>
             </li>
             <li>
-                <a href="./projects">Projects</a>
+                <a data-sveltekit-preload-data="tap" href="./projects" style="color: black;">Projects</a>
             </li>
             <li>
-                <a href="./resume">Resume</a>
+                <a data-sveltekit-preload-data="tap" href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
             </li>
         </ul>
     </nav>

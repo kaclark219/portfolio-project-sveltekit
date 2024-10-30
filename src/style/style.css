@@ -127,6 +127,10 @@ body {
   background-color: #F0EDEE;
 }
 
+.web-body {
+  padding: 20px 80px;
+}
+
 h1 {
   font-size: 28px;
   font-weight: 800;
@@ -188,6 +192,10 @@ p {
 .nav-bar nav #nav-links li {
   list-style-type: none;
   display: inline;
+}
+.nav-bar nav #nav-links a:hover, .nav-bar nav #nav-links a:focus {
+  color: black;
+  text-decoration: underline;
 }
 
 .skills-details {

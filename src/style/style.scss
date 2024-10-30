@@ -1,8 +1,12 @@
 @import 'sass/reset';
 @import 'sass/mixins';
+@import 'sass/colors';
 
 body {
-    background-color: #F0EDEE;
+    background-color: $-grey;
+}
+.web-body {
+    padding: 20px 80px;
 }
 
 h1 {
@@ -40,13 +44,19 @@ p {
         }
         #nav-links {
             @include os-font(22px);
-            color: #5C5C5C;
+            color: $-dark-grey;
             display: flex;
             justify-content: space-between;
             padding-right: 850px;
             li {
                 list-style-type: none;
                 display: inline;
+            }
+            a {
+                &:hover, &:focus {
+                    color: black;
+                    text-decoration: underline;
+                }
             }
         }
     }
