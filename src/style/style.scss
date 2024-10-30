@@ -1,7 +1,30 @@
 // @import 'sass/reset';
-@import 'sass/fonts';
 @import 'sass/mixins';
 
 body {
-    background-color: white;
+    background-color: #F0EDEE;
+}
+
+h1 {
+    @include rm-font();
+}
+h2 {
+    @include rm-font();
+}
+h3 {
+    @include os-font(24px);
+}
+h4 {
+    @include os-font(17px);
+    font-weight: 600;
+    font-style: italic;
+}
+p {
+    @include os-font(20px);
+    line-height: 1.8;
+    .tag {
+        @include os-font(14px);
+        font-weight: 600;
+        font-style: italic;
+    }
 }
