@@ -35,10 +35,9 @@ p {
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.8;
 }
-p .tag {
+
+.tag {
   font-size: 14px;
-  font-weight: 400;
-  font-family: "Open Sans", Arial, sans-serif;
   font-weight: 600;
   font-style: italic;
 }/*# sourceMappingURL=style.css.map */

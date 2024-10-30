@@ -20,11 +20,11 @@ h4 {
     font-style: italic;
 }
 p {
-    @include os-font(20px);
+    @include os-font();
     line-height: 1.8;
-    .tag {
-        @include os-font(14px);
-        font-weight: 600;
-        font-style: italic;
-    }
+}
+.tag {
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
 }
