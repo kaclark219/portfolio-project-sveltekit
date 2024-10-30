@@ -6,9 +6,10 @@
 <div class="nav-bar">
     <nav>
         <img class="name-logo" src={name_logo} alt="Katelyn Clark">
-        <ul>
+        <img class="star-logo" src={star_logo} alt="Two stars.">
+        <ul id="nav-links">
             <li>
-                <a href="./">Home</a>
+                <a href="./">Home + About Me</a>
             </li>
             <li>
                 <a href="./projects">Projects</a>
@@ -17,7 +18,6 @@
                 <a href="./resume">Resume</a>
             </li>
         </ul>
-        <img class="star-logo" src={star_logo} alt="Two stars.">
     </nav>
 </div>
 <div class="body">

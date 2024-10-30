@@ -1,0 +1,11 @@
+@import 'mixins';
+
+.skills-details {
+    @include os-font();
+    line-height: 1.8;
+}
+.tag {
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+}
