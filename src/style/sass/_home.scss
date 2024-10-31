@@ -97,4 +97,29 @@
             }
         }
     }
+    .skills-images {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, auto);
+        gap: 30px;
+    }
+    .greyscale  {
+        filter: grayscale(100%);
+        height: 100px;
+    }
+    .language {
+        &:hover, &:focus {
+            filter: grayscale(100%) drop-shadow(5px 5px 5px $-yellow);
+        }
+    }
+    .technology {
+        &:hover, &:focus {
+            filter: grayscale(100%) drop-shadow(5px 5px 5px $-purple);
+        }
+    }
+    .tool {
+        &:hover, &:focus {
+            filter: grayscale(100%) drop-shadow(5px 5px 5px $-blue);
+        }
+    }
 }

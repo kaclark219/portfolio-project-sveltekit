@@ -3,6 +3,15 @@
     import name_logo from '$lib/assets/name-logo.png'
     import star_logo from '$lib/assets/star-logo.png'
     import headshot from '$lib/assets/headshot.jpg'
+    import c from '$lib/assets/c.svg'
+    import java from '$lib/assets/java.svg'
+    import python from '$lib/assets/python.svg'
+    import html from '$lib/assets/html.svg'
+    import svelte from '$lib/assets/svelte.svg'
+    import d3 from '$lib/assets/d3.svg'
+    import sass from '$lib/assets/sass.svg'
+    import figma from '$lib/assets/figma.svg'
+    import illustrator from '$lib/assets/illustrator.svg'
 </script>
 <div class="nav-bar">
     <nav>
@@ -95,6 +104,17 @@
                     <li>Anaconda</li>
                 </ul>
             </div>
+        </div>
+        <div class="skills-images">
+            <img src={c} alt="C++ Programming Language Logo" class="greyscale language">
+            <img src={java} alt="Java Programming Language Logo" class="greyscale language">
+            <img src={python} alt="Python Programming Language Logo" class="greyscale language">
+            <img src={html} alt="HTML Programming Language Logo" class="greyscale language">
+            <img src={svelte} alt="Svelte Logo" class="greyscale technology">
+            <img src={d3} alt="D3 Logo" class="greyscale technology">
+            <img src={sass} alt="Sass Logo" class="greyscale technology">
+            <img src={figma} alt="Figma Logo" class="greyscale tool">
+            <img src={illustrator} alt="Adobe Illustrator Logo" class="greyscale tool">
         </div>
     </div>
     <div class="project-spotlight">
