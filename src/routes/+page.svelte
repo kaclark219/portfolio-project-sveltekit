@@ -2,7 +2,6 @@
     import '../style/style.css';
     import name_logo from '$lib/assets/name-logo.png'
     import star_logo from '$lib/assets/star-logo.png'
-    import resume from '$lib/Resume.pdf'
     import headshot from '$lib/assets/headshot.jpg'
 </script>
 <div class="nav-bar">
@@ -17,7 +16,7 @@
                 <a data-sveltekit-preload-data="tap" href="./projects">Projects</a>
             </li>
             <li>
-                <a data-sveltekit-preload-data="tap" href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
+                <a data-sveltekit-preload-data="tap" href="./resume" target="_blank">Resume</a>
             </li>
         </ul>
     </nav>
