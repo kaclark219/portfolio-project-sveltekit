@@ -218,10 +218,10 @@ p {
 
 .intro {
   background-color: white;
-  padding: 20px;
+  padding: 40px;
   border-radius: 30px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  height: 500px;
+  height: 510px;
   width: 1050px;
 }
 .intro .intro-right {
@@ -231,6 +231,7 @@ p {
   align-items: flex-start;
   justify-content: center;
   overflow: hidden;
+  float: right;
 }
 .intro .intro-right img {
   width: 100%;
@@ -240,4 +241,17 @@ p {
   -o-object-position: 50% -45px;
      object-position: 50% -45px;
   border-radius: 30px;
+}
+.intro .intro-left {
+  padding-left: 10px;
+  padding-top: 90px;
+  padding-bottom: 40px;
+  padding-right: 350px;
+}
+.intro .intro-left #intro-title {
+  padding-bottom: 10px;
+}
+.intro .intro-left #intro-paragraph {
+  text-align: justify;
+  padding-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */
