@@ -257,7 +257,7 @@ p {
 }
 
 .skills {
-  gap: 160px;
+  gap: 125px;
   display: flex;
 }
 .skills .skills-header {
@@ -311,7 +311,7 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, auto);
-  gap: 30px;
+  gap: 60px;
 }
 .skills .greyscale {
   filter: grayscale(100%);
