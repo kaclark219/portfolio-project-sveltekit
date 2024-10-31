@@ -256,6 +256,13 @@ p {
   padding-bottom: 10px;
 }
 
+.skills {
+  display: flex;
+  gap: 60px;
+}
+.skills .skills-left, .skills .skills-right {
+  flex: 1;
+}
 .skills .skills-header {
   background: white;
   border-radius: 30px;

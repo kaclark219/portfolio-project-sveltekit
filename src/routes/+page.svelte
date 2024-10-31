@@ -41,80 +41,84 @@
         </div>
     </div>
     <div class="skills">
-        <div class="skills-header">
-            <h2 id="skills-title">My Skills</h2>
-            <div class="skills-categories">
-                <h4 id="languages">Languages</h4>
-                <h4 id="technologies">Technologies</h4>
-                <h4 id="tools">Tools</h4>
+        <div class="skills-left">
+            <div class="skills-header">
+                <h2 id="skills-title">My Skills</h2>
+                <div class="skills-categories">
+                    <h4 id="languages">Languages</h4>
+                    <h4 id="technologies">Technologies</h4>
+                    <h4 id="tools">Tools</h4>
+                </div>
+            </div>
+            <div class="skills-details">
+                <div class="languages">
+                    <ul id="languages">
+                        <li>C/C++</li>
+                        <li>Java</li>
+                        <li>HTML</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="technologies">
+                    <ul id="technologies">
+                        <li>Java Swing</li>
+                        <li>JavaFX</li>
+                        <li>MySQL</li>
+                        <li>PostgreSQL</li>
+                        <li>MongoDB</li>
+                        <li>Redis</li>
+                        <li>Matplotlib</li>
+                        <li>Altair</li>
+                        <li>Seaborn</li>
+                        <li>D3</li>
+                        <li>CSS</li>
+                        <li>Sass (SCSS syntax)</li>
+                        <li>Flask</li>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>React</li>
+                        <li>Sveltekit</li>
+                        <li>OpenGL</li>
+                    </ul>
+                </div>
+                <div class="tools">
+                    <ul id="tools">
+                        <li>Git</li>
+                        <li>Linux</li>
+                        <li>Unix</li>
+                        <li>GDB</li>
+                        <li>Render</li>
+                        <li>Vercel</li>
+                        <li>Google Cloud Platform</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe InDesign</li>
+                        <li>Adobe XD</li>
+                        <li>Figma</li>
+                        <li>Tabletop Playground</li>
+                        <li>Waterfall Methodology</li>
+                        <li>Agile Methodology</li>
+                        <li>VS Code</li>
+                        <li>Visual Studio</li>
+                        <li>IntelliJ</li>
+                        <li>Anaconda</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="skills-details">
-            <div class="languages">
-                <ul id="languages">
-                    <li>C/C++</li>
-                    <li>Java</li>
-                    <li>HTML</li>
-                    <li>Python</li>
-                    <li>JavaScript</li>
-                </ul>
+        <div class="skills-right">
+            <div class="skills-images">
+                <img src={c} alt="C++ Programming Language Logo" class="greyscale language">
+                <img src={java} alt="Java Programming Language Logo" class="greyscale language">
+                <img src={python} alt="Python Programming Language Logo" class="greyscale language">
+                <img src={html} alt="HTML Programming Language Logo" class="greyscale language">
+                <img src={svelte} alt="Svelte Logo" class="greyscale technology">
+                <img src={d3} alt="D3 Logo" class="greyscale technology">
+                <img src={sass} alt="Sass Logo" class="greyscale technology">
+                <img src={figma} alt="Figma Logo" class="greyscale tool">
+                <img src={illustrator} alt="Adobe Illustrator Logo" class="greyscale tool">
             </div>
-            <div class="technologies">
-                <ul id="technologies">
-                    <li>Java Swing</li>
-                    <li>JavaFX</li>
-                    <li>MySQL</li>
-                    <li>PostgreSQL</li>
-                    <li>MongoDB</li>
-                    <li>Redis</li>
-                    <li>Matplotlib</li>
-                    <li>Altair</li>
-                    <li>Seaborn</li>
-                    <li>D3</li>
-                    <li>CSS</li>
-                    <li>Sass (SCSS syntax)</li>
-                    <li>Flask</li>
-                    <li>Node.js</li>
-                    <li>Express</li>
-                    <li>React</li>
-                    <li>Sveltekit</li>
-                    <li>OpenGL</li>
-                </ul>
-            </div>
-            <div class="tools">
-                <ul id="tools">
-                    <li>Git</li>
-                    <li>Linux</li>
-                    <li>Unix</li>
-                    <li>GDB</li>
-                    <li>Render</li>
-                    <li>Vercel</li>
-                    <li>Google Cloud Platform</li>
-                    <li>Adobe Illustrator</li>
-                    <li>Adobe Photoshop</li>
-                    <li>Adobe InDesign</li>
-                    <li>Adobe XD</li>
-                    <li>Figma</li>
-                    <li>Tabletop Playground</li>
-                    <li>Waterfall Methodology</li>
-                    <li>Agile Methodology</li>
-                    <li>VS Code</li>
-                    <li>Visual Studio</li>
-                    <li>IntelliJ</li>
-                    <li>Anaconda</li>
-                </ul>
-            </div>
-        </div>
-        <div class="skills-images">
-            <img src={c} alt="C++ Programming Language Logo" class="greyscale language">
-            <img src={java} alt="Java Programming Language Logo" class="greyscale language">
-            <img src={python} alt="Python Programming Language Logo" class="greyscale language">
-            <img src={html} alt="HTML Programming Language Logo" class="greyscale language">
-            <img src={svelte} alt="Svelte Logo" class="greyscale technology">
-            <img src={d3} alt="D3 Logo" class="greyscale technology">
-            <img src={sass} alt="Sass Logo" class="greyscale technology">
-            <img src={figma} alt="Figma Logo" class="greyscale tool">
-            <img src={illustrator} alt="Adobe Illustrator Logo" class="greyscale tool">
         </div>
     </div>
     <div class="project-spotlight">
