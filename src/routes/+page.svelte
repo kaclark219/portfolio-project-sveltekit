@@ -3,6 +3,7 @@
     import name_logo from '$lib/assets/name-logo.png'
     import star_logo from '$lib/assets/star-logo.png'
     import resume from '$lib/Resume.pdf'
+    import headshot from '$lib/assets/headshot.jpg'
 </script>
 <div class="nav-bar">
     <nav>
@@ -24,7 +25,7 @@
 <div class="web-body">
     <div class="intro">
         <div class="intro-right">
-            <img src="" alt="Headshot">
+            <img src={headshot} alt="Headshot of Katelyn with a lake in the background.">
         </div>
         <div class="intro-left">
             <h1 id="intro-title">Software Developer & Game Designer</h1>
