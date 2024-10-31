@@ -50,11 +50,8 @@
 }
 
 .skills {
+    padding: 20px 80px 20px 80px;
     display: flex;
-    gap: 60px;
-    .skills-left, .skills-right {
-        flex: 1;
-    }
     .skills-header {
         background: white;
         border-radius: 30px;
