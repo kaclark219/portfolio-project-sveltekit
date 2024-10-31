@@ -16,7 +16,7 @@
                 <a data-sveltekit-preload-data="tap" href="./projects">Projects</a>
             </li>
             <li>
-                <a data-sveltekit-preload-data="tap" href="./resume" target="_blank">Resume</a>
+                <a data-sveltekit-preload-data="tap" href="./resume">Resume</a>
             </li>
         </ul>
     </nav>
