@@ -7,15 +7,24 @@ export function showLanguages() {
     const tools = document.getElementById("tools-text");
     if (languages) {
         languages.style.display = "block";
-        languages.style.boxShadow = "0px 4px 4px 0px rgba(0, 0, 0, 0.25);"
     }
     if (technologies) {
         technologies.style.display = "none";
-        technologies.style.boxShadow = "0px 0px 0px 0px rgba(0, 0, 0, 0.25);"
     }
     if (tools) {
         tools.style.display = "none";
-        tools.style.boxShadow = "0px 0px 0px 0px rgba(0, 0, 0, 0.25);"
+    }
+    const languages_button = document.getElementById('languages');
+    if (languages_button) {
+        languages_button.style.boxShadow = "0px 4px 4px 0px rgba(0, 0, 0, 0.25)";
+    }
+    const technologies_button = document.getElementById('technologies');
+    if (technologies_button) {
+        technologies_button.style.boxShadow = "0px 0px 0px 0px rgba(0, 0, 0, 0.25)";
+    }
+    const tools_button = document.getElementById('tools');
+    if (tools_button) {
+        tools_button.style.boxShadow = "0px 0px 0px 0px rgba(0, 0, 0, 0.25)";
     }
     let languages_icons = document.getElementsByClassName("language-icon");
     for (let i = 0; i < languages_icons.length; i++) {
@@ -45,15 +54,24 @@ export function showTechnologies() {
     const tools = document.getElementById("tools-text");
     if (languages) {
         languages.style.display = "none";
-        languages.style.boxShadow = "0px 0px 0px 0px rgba(0, 0, 0, 0.25);"
     }
     if (technologies) {
         technologies.style.display = "block";
-        technologies.style.boxShadow = "0px 4px 4px 0px rgba(0, 0, 0, 0.25);"
     }
     if (tools) {
         tools.style.display = "none";
-        tools.style.boxShadow = "0px 0px 0px 0px rgba(0, 0, 0, 0.25);"
+    }
+    const languages_button = document.getElementById('languages');
+    if (languages_button) {
+        languages_button.style.boxShadow = "0px 0px 0px 0px rgba(0, 0, 0, 0.25)";
+    }
+    const technologies_button = document.getElementById('technologies');
+    if (technologies_button) {
+        technologies_button.style.boxShadow = "0px 4px 4px 0px rgba(0, 0, 0, 0.25)";
+    }
+    const tools_button = document.getElementById('tools');
+    if (tools_button) {
+        tools_button.style.boxShadow = "0px 0px 0px 0px rgba(0, 0, 0, 0.25)";
     }
     let languages_icons = document.getElementsByClassName("language-icon");
     for (let i = 0; i < languages_icons.length; i++) {
@@ -92,6 +110,18 @@ export function showTools() {
     if (tools) {
         tools.style.display = "block";
         tools.style.boxShadow = "0px 4px 4px 0px rgba(0, 0, 0, 0.25);"
+    }
+    const languages_button = document.getElementById('languages');
+    if (languages_button) {
+        languages_button.style.boxShadow = "0px 0px 0px 0px rgba(0, 0, 0, 0.25)";
+    }
+    const technologies_button = document.getElementById('technologies');
+    if (technologies_button) {
+        technologies_button.style.boxShadow = "0px 0px 0px 0px rgba(0, 0, 0, 0.25)";
+    }
+    const tools_button = document.getElementById('tools');
+    if (tools_button) {
+        tools_button.style.boxShadow = "0px 4px 4px 0px rgba(0, 0, 0, 0.25)";
     }
     let languages_icons = document.getElementsByClassName("language-icon");
     for (let i = 0; i < languages_icons.length; i++) {
