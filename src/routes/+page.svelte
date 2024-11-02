@@ -1,4 +1,6 @@
 <script>
+    import { onMount } from 'svelte';
+    import { initSkills } from '$lib/index.js';
     import '../style/style.css';
     import name_logo from '$lib/assets/name-logo.png'
     import star_logo from '$lib/assets/star-logo.png'
@@ -12,6 +14,9 @@
     import sass from '$lib/assets/sass.svg'
     import figma from '$lib/assets/figma.svg'
     import illustrator from '$lib/assets/illustrator.svg'
+    onMount(() => {
+        initSkills();
+    });
 </script>
 <div class="nav-bar">
     <nav>
@@ -52,7 +57,7 @@
             </div>
             <div class="skills-details">
                 <div class="languages">
-                    <ul id="languages">
+                    <ul id="languages-text">
                         <li>C/C++</li>
                         <li>Java</li>
                         <li>HTML</li>
@@ -61,7 +66,7 @@
                     </ul>
                 </div>
                 <div class="technologies">
-                    <ul id="technologies">
+                    <ul id="technologies-text">
                         <li>Java Swing</li>
                         <li>JavaFX</li>
                         <li>MySQL</li>
@@ -83,7 +88,7 @@
                     </ul>
                 </div>
                 <div class="tools">
-                    <ul id="tools">
+                    <ul id="tools-text">
                         <li>Git</li>
                         <li>Linux</li>
                         <li>Unix</li>
@@ -109,15 +114,15 @@
         </div>
         <div class="skills-right">
             <div class="skills-images">
-                <img src={c} alt="C++ Programming Language Logo" class="greyscale language">
-                <img src={java} alt="Java Programming Language Logo" class="greyscale language">
-                <img src={python} alt="Python Programming Language Logo" class="greyscale language">
-                <img src={html} alt="HTML Programming Language Logo" class="greyscale language">
-                <img src={svelte} alt="Svelte Logo" class="greyscale technology">
-                <img src={d3} alt="D3 Logo" class="greyscale technology">
-                <img src={sass} alt="Sass Logo" class="greyscale technology">
-                <img src={figma} alt="Figma Logo" class="greyscale tool">
-                <img src={illustrator} alt="Adobe Illustrator Logo" class="greyscale tool">
+                <img src={c} alt="C++ Programming Language Logo" class="greyscale language-icon">
+                <img src={java} alt="Java Programming Language Logo" class="greyscale language-icon">
+                <img src={python} alt="Python Programming Language Logo" class="greyscale language-icon">
+                <img src={html} alt="HTML Programming Language Logo" class="greyscale language-icon">
+                <img src={svelte} alt="Svelte Logo" class="greyscale technology-icon">
+                <img src={d3} alt="D3 Logo" class="greyscale technology-icon">
+                <img src={sass} alt="Sass Logo" class="greyscale technology-icon">
+                <img src={figma} alt="Figma Logo" class="greyscale tool-icon">
+                <img src={illustrator} alt="Adobe Illustrator Logo" class="greyscale tool-icon">
             </div>
         </div>
     </div>

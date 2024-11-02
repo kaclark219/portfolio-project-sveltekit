@@ -61,6 +61,7 @@
         height: 140px;
         display: flex;
         flex-direction: column;
+        margin-top: 60px;
         .skills-categories {
             padding-top: 20px;
             display: flex;
@@ -99,29 +100,54 @@
             }
         }
     }
+    .skills-details {
+        background: white;
+        border-radius: 30px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        padding: 20px 40px;
+        width: 800px;
+        height: 400px;
+        margin-top: 10px;
+        ul {
+            list-style-type: circle;
+            margin-left: 20px;
+        }
+        .languages {
+            column-count: 1;
+        }
+        .technologies {
+            column-count: 2;
+            column-gap: 30px;
+        }
+        .tools {
+            column-count: 3;
+            column-gap: 30px;
+        }
+    }
     .skills-images {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, auto);
         gap: 60px;
+        margin-top: 120px;
     }
     .greyscale  {
         filter: grayscale(100%);
         height: 100px;
     }
-    .language {
-        &:hover, &:focus {
-            filter: grayscale(100%) drop-shadow(5px 5px 5px $-yellow);
-        }
-    }
-    .technology {
-        &:hover, &:focus {
-            filter: grayscale(100%) drop-shadow(5px 5px 5px $-purple);
-        }
-    }
-    .tool {
-        &:hover, &:focus {
-            filter: grayscale(100%) drop-shadow(5px 5px 5px $-blue);
-        }
-    }
+    // .language-icon {
+    //     &:hover, &:focus {
+    //         filter: grayscale(100%) drop-shadow(5px 5px 5px $-yellow);
+    //     }
+    // }
+    // .technology-icon {
+    //     &:hover, &:focus {
+    //         filter: grayscale(100%) drop-shadow(5px 5px 5px $-purple);
+    //     }
+    // }
+    // .tool-icon {
+    //     &:hover, &:focus {
+    //         filter: grayscale(100%) drop-shadow(5px 5px 5px $-blue);
+    //     }
+    // }
 }
