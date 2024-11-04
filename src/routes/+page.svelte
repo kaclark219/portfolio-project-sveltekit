@@ -14,6 +14,10 @@
     import sass from '$lib/assets/sass.svg'
     import figma from '$lib/assets/figma.svg'
     import illustrator from '$lib/assets/illustrator.svg'
+    import github from '$lib/assets/github.svg'
+    import linkedin from '$lib/assets/linkedin.svg'
+    import instagram from '$lib/assets/instagram.svg'
+    import email from '$lib/assets/email.svg'
     onMount(() => {
         initSkills();
     });
@@ -146,11 +150,11 @@
     <div class="footer">
         <h2 id="footer-title">Find me elsewhere online!</h2>
         <div class="footer-socials">
-            <a href="https://www.linkedin.com/in/katelyn-a-clark/"><img src="" alt="LinkedIn Icon"></a>
-            <a href="https://github.com/kaclark219"><img src="" alt="Github Icon"></a>
-            <a href="https://www.instagram.com/k8lyncre8s/"><img src="" alt="Instagram Icon"></a>
-            <a href="mailto:kaclark219@gmail.com"><img src="" alt="Email Icon"></a>
+            <div class="linkedin"><a href="https://www.linkedin.com/in/katelyn-a-clark/" target="_blank"><img src={linkedin} alt="LinkedIn Icon"></a></div>
+            <div class="github"><a href="https://github.com/kaclark219" target="_blank"><img src={github} alt="Github Icon"></a></div>
+            <div class="instagram"><a href="https://www.instagram.com/k8lyncre8s/" target="_blank"><img src={instagram} alt="Instagram Icon"></a></div>
+            <div class="email"><a href="mailto:kaclark219@gmail.com" target="_blank"><img src={email} alt="Email Icon"></a></div>
         </div>
-        <p id="footer-copyright">© 2024 Katelyn Clark</p>
+        <p id="footer-copyright">© 2024 Katelyn Clark<br>All Rights Reserved</p>
     </div>
 </div>

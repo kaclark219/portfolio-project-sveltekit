@@ -203,6 +203,67 @@ p {
   text-decoration: underline;
 }
 
+.footer {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  width: 1240px;
+  height: 260px;
+  background-color: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  padding: 40px;
+  padding-top: 25px;
+}
+.footer img {
+  filter: brightness(0) invert(0);
+  height: 115px;
+}
+.footer .footer-socials {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 520px;
+}
+.footer .linkedin, .footer .github, .footer .instagram, .footer .email {
+  padding: 20px;
+  border-radius: 30px;
+}
+.footer .linkedin:hover, .footer .linkedin:focus, .footer .github:hover, .footer .github:focus, .footer .instagram:hover, .footer .instagram:focus, .footer .email:hover, .footer .email:focus {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.footer .linkedin.linkedin, .footer .github.linkedin, .footer .instagram.linkedin, .footer .email.linkedin {
+  background-color: #E2C99F;
+}
+.footer .linkedin.linkedin:hover, .footer .linkedin.linkedin:focus, .footer .github.linkedin:hover, .footer .github.linkedin:focus, .footer .instagram.linkedin:hover, .footer .instagram.linkedin:focus, .footer .email.linkedin:hover, .footer .email.linkedin:focus {
+  background-color: #C4A26A;
+}
+.footer .linkedin.github, .footer .github.github, .footer .instagram.github, .footer .email.github {
+  background-color: #A484B9;
+}
+.footer .linkedin.github:hover, .footer .linkedin.github:focus, .footer .github.github:hover, .footer .github.github:focus, .footer .instagram.github:hover, .footer .instagram.github:focus, .footer .email.github:hover, .footer .email.github:focus {
+  background-color: #8D61AA;
+}
+.footer .linkedin.instagram, .footer .github.instagram, .footer .instagram.instagram, .footer .email.instagram {
+  background-color: #8B9FCB;
+}
+.footer .linkedin.instagram:hover, .footer .linkedin.instagram:focus, .footer .github.instagram:hover, .footer .github.instagram:focus, .footer .instagram.instagram:hover, .footer .instagram.instagram:focus, .footer .email.instagram:hover, .footer .email.instagram:focus {
+  background-color: #5E78B1;
+}
+.footer .linkedin.email, .footer .github.email, .footer .instagram.email, .footer .email.email {
+  background-color: #71A076;
+}
+.footer .linkedin.email:hover, .footer .linkedin.email:focus, .footer .github.email:hover, .footer .github.email:focus, .footer .instagram.email:hover, .footer .instagram.email:focus, .footer .email.email:hover, .footer .email.email:focus {
+  background-color: #557C5A;
+}
+.footer #footer-copyright {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Open Sans", Arial, sans-serif;
+  text-align: right;
+  margin-left: 920px;
+  margin-top: -90px;
+}
+
 .skills-details {
   font-size: 20px;
   font-weight: 400;
