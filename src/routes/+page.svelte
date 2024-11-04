@@ -18,6 +18,8 @@
     import linkedin from '$lib/assets/linkedin.svg'
     import instagram from '$lib/assets/instagram.svg'
     import email from '$lib/assets/email.svg'
+    import pharaohs_gambit from '$lib/assets/pharaohs-gambit.png'
+    import pos_webapp from '$lib/assets/pos-webapp.png'
     onMount(() => {
         initSkills();
     });
@@ -137,12 +139,32 @@
         <div class="project-list">
             <div class="project">
                 <h3 class="project-name">Pharaoh's Gambit</h3>
-                <img class="project-image" src="" alt="Pharaoh's Gambit Game Screenshot">
-                <p>A strategy tabletop game combining elements of chess, Stratego, and the ancient game Senet with scripted game logic, interactive features, and multiplayer gameplay. I engineered the game mechanics, player interactions, and starting configurations to prioritize strategic complexity and engaging dynamics.</p>
+                <div class="project-image">
+                    <img src={pharaohs_gambit} alt="Pharaoh's Gambit Game Screenshot">
+                    <div class="overlay"></div>
+                    <p class="description">A strategy tabletop game combining elements of chess, Stratego, and the ancient game Senet with scripted game logic, interactive features, and multiplayer gameplay. I engineered the game mechanics, player interactions, and starting configurations to prioritize strategic complexity and engaging dynamics.</p>
+                </div>
                 <div class="project-tags">
                     <p class="tag language">JavaScript</p>
                     <p class="tag tool">Tabletop Playground</p>
                     <p class="tag tool">Adobe Illustrator</p>
+                </div>
+            </div>
+            <div class="project">
+                <h3 class="project-name">Fast Food POS Web Application</h3>
+                <div class="project-image">
+                    <img src={pos_webapp} alt="Point of Sales System Screenshot">
+                    <div class="overlay"></div>
+                    <p class="description">A web application that allows for different types of users (administrators, managers, cashiers, cooks, and customers) to track supplies and sales, order food, and view the menu. The system is integrated with weather and translation services, and meets high accessibility standards. I worked in an Agile team to complete this project.</p>
+                </div>
+                <div class="project-tags">
+                    <p class="tag language">JavaScript</p>
+                    <p class="tag language">TypeScript</p>
+                    <p class="tag technology">PostgreSQL</p>
+                    <p class="tag tool">Agile</p>
+                    <p class="tag language">HTML</p>
+                    <p class="tag technology">React</p>
+                    <p class="tag technology">Node.js</p>
                 </div>
             </div>
         </div>
