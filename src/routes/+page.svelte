@@ -20,6 +20,7 @@
     import email from '$lib/assets/email.svg'
     import pharaohs_gambit from '$lib/assets/pharaohs-gambit.png'
     import pos_webapp from '$lib/assets/pos-webapp.png'
+    import ray_tracer from '$lib/assets/ray-tracer.png'
     onMount(() => {
         initSkills();
     });
@@ -69,6 +70,9 @@
                         <li>HTML</li>
                         <li>Python</li>
                         <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>LaTeX</li>
+                        <li>Scheme</li>
                     </ul>
                 </div>
                 <div class="technologies">
@@ -165,6 +169,19 @@
                     <p class="tag language">HTML</p>
                     <p class="tag technology">React</p>
                     <p class="tag technology">Node.js</p>
+                </div>
+            </div>
+            <div class="project">
+                <h3 class="project-name">Ray Tracer</h3>
+                <div class="project-image">
+                    <img src={ray_tracer} alt="Spheres Produced by Ray Tracer">
+                    <div class="overlay"></div>
+                    <p class="description">For a course project, I wrote a recursive ray tracer in OpenGL using C++ & tinyobjloader that can handle spheres, planes, imported .obj geometry, as well as mirrored surfaces and multiple light sources/shadows. The entire scene can render in about 3 seconds in release mode.</p>
+                </div>
+                <div class="project-tags">
+                    <p class="tag language">C++</p>
+                    <p class="tag technology">OpenGL</p>
+                    <p class="tag technology">tinyobjloader</p>
                 </div>
             </div>
         </div>

@@ -1,0 +1,29 @@
+@import 'colors';
+
+.project-list {
+    width: 1050px;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 15px;
+}
+.project {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+}
+.project-list::-webkit-scrollbar {
+    height: 7px;
+}
+.project-list::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.project-list::-webkit-scrollbar-thumb {
+    background: $-green;
+    border-radius: 10px;
+}
+.project-list::-webkit-scrollbar-thumb:hover {
+    background: $-green-hover;
+}

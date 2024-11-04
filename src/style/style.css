@@ -498,4 +498,37 @@ p {
 }
 .project-spotlight .project .project-tags .tag.tool {
   background-color: #8B9FCB;
+}
+
+.project-list {
+  width: 1050px;
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 15px;
+}
+
+.project {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}
+
+.project-list::-webkit-scrollbar {
+  height: 7px;
+}
+
+.project-list::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.project-list::-webkit-scrollbar-thumb {
+  background: #71A076;
+  border-radius: 10px;
+}
+
+.project-list::-webkit-scrollbar-thumb:hover {
+  background: #557C5A;
 }/*# sourceMappingURL=style.css.map */
