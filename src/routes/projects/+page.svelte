@@ -23,7 +23,8 @@
             </li>
         </ul>
     </nav>
-
+</div>
+<div class="web-body">
     <div class="footer">
         <h2 id="footer-title">Find me elsewhere online!</h2>
         <div class="footer-socials">
