@@ -1,6 +1,6 @@
 <script>
     import { onMount } from 'svelte';
-    import { initSkills } from '$lib/index.js';
+    import { initSkills, projectScrolling } from '$lib/index.js';
     import '../style/style.css';
     import name_logo from '$lib/assets/name-logo.png'
     import star_logo from '$lib/assets/star-logo.png'
@@ -23,6 +23,7 @@
     import ray_tracer from '$lib/assets/ray-tracer.png'
     onMount(() => {
         initSkills();
+        projectScrolling();
     });
 </script>
 <div class="nav-bar">

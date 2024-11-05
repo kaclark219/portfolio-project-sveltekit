@@ -30,6 +30,7 @@ export function showLanguages() {
     for (let i = 0; i < languages_icons.length; i++) {
         const icon = languages_icons[i];
         if (icon instanceof HTMLElement) {
+            icon.style.transition = "filter 0.3s ease";
             icon.style.filter = "grayscale(100%) drop-shadow(5px 5px 5px #E2C99F)";
         }
     }
@@ -84,6 +85,7 @@ export function showTechnologies() {
     for (let i = 0; i < technologies_icons.length; i++) {
         const icon = technologies_icons[i];
         if (icon instanceof HTMLElement) {
+            icon.style.transition = "filter 0.3s ease";
             icon.style.filter = "grayscale(100%) drop-shadow(5px 5px 5px #A484B9)";
         }
     }
@@ -141,6 +143,7 @@ export function showTools() {
     for (let i = 0; i < tools_icons.length; i++) {
         const icon = tools_icons[i];
         if (icon instanceof HTMLElement) {
+            icon.style.transition = "filter 0.3s ease";
             icon.style.filter = "grayscale(100%) drop-shadow(5px 5px 5px #8B9FCB)";
         }
     }
@@ -161,4 +164,19 @@ export function initSkills() {
         tools_button.onclick = showTools;
     }
     showLanguages();
+}
+
+export function projectScrolling() {
+    const project_list = document.querySelector('.project-list');
+        const handleWheel = (event) => {
+            event.preventDefault();
+            project_list.scrollBy({
+                left: event.deltaY,
+                behavior: 'smooth'
+            });
+        };
+        project_list.addEventListener('wheel', handleWheel);
+        return () => {
+            project_list.removeEventListener('wheel', handleWheel);
+        };
 }

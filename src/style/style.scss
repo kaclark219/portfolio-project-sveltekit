@@ -53,7 +53,8 @@ p {
             color: $-dark-grey;
             display: flex;
             justify-content: space-between;
-            padding-right: 550px;
+            width: 500px;
+            // padding-right: 550px;
             li {
                 list-style-type: none;
                 display: inline;
@@ -128,3 +129,4 @@ p {
 }
 
 @import 'sass/home';
+@import 'sass/projects';
