@@ -517,7 +517,7 @@ p {
 }
 
 .project-list::-webkit-scrollbar {
-  height: 7px;
+  height: 15px;
 }
 
 .project-list::-webkit-scrollbar-track {
