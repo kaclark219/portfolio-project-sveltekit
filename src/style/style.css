@@ -587,7 +587,7 @@ p {
   align-items: center;
 }
 .all-projects .project {
-  margin-top: 30px;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -600,4 +600,75 @@ p {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   height: 100px;
   width: 1235px;
+  justify-content: space-between;
+  align-items: center;
+}
+.all-projects .project .project-title svg {
+  height: 50px;
+  width: 50px;
+  fill: #71A076;
+}
+.all-projects .project .project-title svg:hover, .all-projects .project .project-title svg:focus {
+  fill: #557C5A;
+  cursor: pointer;
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.3));
+}
+.all-projects .project .project-title a {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.all-projects .project .project-content {
+  margin-top: 10px;
+  height: 350px;
+  width: 1235px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  grid-gap: 30px;
+}
+.all-projects .project .project-content img {
+  height: 290px;
+  border-radius: 30px;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.all-projects .project .project-content .project-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.all-projects .project .project-content .project-text .project-description {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.8;
+  text-align: justify;
+}
+.all-projects .project .project-content .project-text .project-tags {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.all-projects .project .project-content .project-text .project-tags .tag {
+  padding: 5px 15px;
+  border-radius: 30px;
+}
+.all-projects .project .project-content .project-text .project-tags .tag.language {
+  background-color: #E2C99F;
+}
+.all-projects .project .project-content .project-text .project-tags .tag.technology {
+  background-color: #A484B9;
+}
+.all-projects .project .project-content .project-text .project-tags .tag.tool {
+  background-color: #8B9FCB;
+}
+.all-projects .first {
+  margin-top: 30px;
 }/*# sourceMappingURL=style.css.map */
