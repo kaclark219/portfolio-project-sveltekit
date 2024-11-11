@@ -19,7 +19,7 @@
     import todo from '$lib/assets/todo.png'
     import sizesort from '$lib/assets/sizesort.png'
     import fallback from '$lib/assets/fallback.png'
-    import modio from '$lib/assets/modio.svg'
+    import mimc from '$lib/assets/mimc.png'
 
     let currentImage = fallback;
     const showImage = (imgSrc) => {
@@ -30,6 +30,7 @@
         currentImage = fallback;
     };
 </script>
+
 <div class="nav-bar">
     <nav>
         <img class="name-logo" src={name_logo} alt="Katelyn Clark">
@@ -52,6 +53,7 @@
         <h2 id="project-nav-header">My Projects</h2>
         <div class="project-nav-list">
             <ul id="project-nav-list">
+                <li><a href="#make-it-make-cents" on:mouseenter={() => showImage(mimc)} on:mouseleave={hideImage}>Make it Make Cents</a></li>
                 <li><a href="#pharaohs-gambit" on:mouseenter={() => showImage(pharaohs_gambit)} on:mouseleave={hideImage}>Pharaoh's Gambit</a></li>
                 <li><a href="#pos-web-app" on:mouseenter={() => showImage(pos_webapp)} on:mouseleave={hideImage}>Fast Food POS Web Application</a></li>
                 <li><a href="#marketplace" on:mouseenter={() => showImage(marketplace)} on:mouseleave={hideImage}>Marketplace Sales System</a></li>
@@ -61,7 +63,6 @@
                 <li><a href="#adventure-game" on:mouseenter={() => showImage(adventure_game)} on:mouseleave={hideImage}>Text-Based Adventure Game</a></li>
                 <li><a href="#connect4" on:mouseenter={() => showImage(connect4)} on:mouseleave={hideImage}>Connect 4 Game</a></li>
                 <li><a href="#ray-tracer" on:mouseenter={() => showImage(ray_tracer)} on:mouseleave={hideImage}>Ray Tracer</a></li>
-                <li><a href="#punk-mag" on:mouseenter={() => showImage(punk_mag)} on:mouseleave={hideImage}>Punk Magazine Spread</a></li>
                 <li><a href="#todo-extension" on:mouseenter={() => showImage(todo)} on:mouseleave={hideImage}>To-Do Extension</a></li>
                 <li><a href="#sizesort" on:mouseenter={() => showImage(sizesort)} on:mouseleave={hideImage}>SizeSort Game</a></li>
             </ul>
@@ -69,7 +70,30 @@
         <img class="project-image" src={currentImage} alt=""/>
     </div>
     <div class="all-projects">
-        <div class="project first" id="pharaohs-gambit">
+        <div class="project first" id="make-it-make-cents">
+            <div class="project-title">
+                <h2>Make It Make Cents (November 2024)</h2>
+                <a href="https://devpost.com/software/make-it-make-cents" target="_blank">
+                    <svg width="800px" height="800px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><path d="M6.002 1.61 0 12.004 6.002 22.39h11.996L24 12.004 17.998 1.61zm1.593 4.084h3.947c3.605 0 6.276 1.695 6.276 6.31 0 4.436-3.21 6.302-6.456 6.302H7.595zm2.517 2.449v7.714h1.241c2.646 0 3.862-1.55 3.862-3.861.009-2.569-1.096-3.853-3.767-3.853z"/></svg>
+                </a>
+            </div>
+            <div class="project-content">
+                <img src={mimc} alt="Web Application Screenshot">
+                <div class="project-text">
+                    <p class="project-description">Created for Capital One's Challenge at TAMU Datathon 2024, this project was developed as a solution to low financial literacy skills in children and young teens. I designed and programmed this project alone, and won "Best Domain Name from GoDaddy Registry" from Major League Hacking for my submission. This web application features a change saving feature, redeemable rewards for completing goals, and two learning mini-games.</p>
+                    <div class="project-tags">
+                        <p class="tag language">HTML</p>
+                        <p class="tag language">JavaScript</p>
+                        <p class="tag technology">Sass</p>
+                        <p class="tag technology">Sveltekit</p>
+                        <p class="tag technology">Node.js</p>
+                        <p class="tag tool">Figma</p>
+                        <p class="tag tool">Vercel</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project" id="pharaohs-gambit">
             <div class="project-title">
                 <h2>Pharaoh's Gambit (September 2024)</h2>
                 <a href="https://mod.io/g/tabletopplayground/m/pharaohs-gambit" target="_blank">
@@ -120,6 +144,7 @@
             </div>
         </div>
     </div>
+
     <div class="footer">
         <h2 id="footer-title">Find me elsewhere online!</h2>
         <div class="footer-socials">

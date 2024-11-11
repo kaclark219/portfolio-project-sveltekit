@@ -50,7 +50,7 @@
         </div>
         <div class="intro-left">
             <h1 id="intro-title">Software Developer & Game Designer</h1>
-            <p id="intro-paragraph">Hi! I'm Katelyn, a senior computer science student at Texas A&M with a concentration in HCI/d for games + the web, & a minor in graphic design. Currently, I'm applying to graduate programs in computer science & am looking for summer internships in the game industry! My research interest is in the field of Human-Computer Design & Visualization. I enjoy full-stack software development, game design theory, and digital illustration. It's nice to meet you!</p>
+            <p id="intro-paragraph">Hi! I'm Katelyn, a senior computer science student at Texas A&M with a concentration in HCI/d for games + the web, & a minor in graphic design. Following graduation, I will be a student in the RIT M.S. in Computer Science program. Currently, I am looking for summer internships in the game industry! My research interest is in the field of Human-Computer Design & Visualization. I enjoy full-stack software development, game design theory, and digital illustration. It's nice to meet you!</p>
         </div>
     </div>
     <div class="skills">
