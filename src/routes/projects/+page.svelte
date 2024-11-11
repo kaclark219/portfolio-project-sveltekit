@@ -146,13 +146,18 @@
     </div>
 
     <div class="contact-container">
-        <h2>Have a question for me?</h2>
-        <div class="user-fill">
-            <input type="text"><br>
-            <input type="text"><br>
-            <input type="text"><br>
+        <div class="contact-left">
+            <img src={star_logo} alt="Two stars logo.">
         </div>
-        <button class="contact-submission">Submit</button>
+        <div class="contact-right">
+            <h2>Have a question for me?</h2>
+            <div class="user-fill">
+                <input type="text" placeholder="Name"><br>
+                <input type="text" placeholder="Email"><br>
+                <input type="text" placeholder="Message" class="message"><br>
+            </div>
+            <button class="contact-submission">Submit</button>
+        </div>
     </div>
 
     <div class="footer">
