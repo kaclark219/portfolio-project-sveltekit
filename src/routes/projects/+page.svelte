@@ -145,6 +145,16 @@
         </div>
     </div>
 
+    <div class="contact-container">
+        <h2>Have a question for me?</h2>
+        <div class="user-fill">
+            <input type="text"><br>
+            <input type="text"><br>
+            <input type="text"><br>
+        </div>
+        <button class="contact-submission">Submit</button>
+    </div>
+
     <div class="footer">
         <h2 id="footer-title">Find me elsewhere online!</h2>
         <div class="footer-socials">
