@@ -155,7 +155,7 @@
         align-items: flex-end;
         justify-content: flex-end;
     }
-    input {
+    input, textarea {
         border-radius: 30px;
         background: #D9DFDA;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -166,13 +166,14 @@
         padding-right: 20px;
         @include os-font(18px);
     }
-    input::placeholder {
+    input::placeholder, textarea::placeholder {
         color: $-dark-grey;
     }
     h2 {
         text-align: right;
     }
     .message {
+        padding-top: 20px;
         height: 115px;
     }
     button {

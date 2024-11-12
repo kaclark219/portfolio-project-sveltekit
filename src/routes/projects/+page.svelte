@@ -20,6 +20,17 @@
     import sizesort from '$lib/assets/sizesort.png'
     import fallback from '$lib/assets/fallback.png'
     import mimc from '$lib/assets/mimc.png'
+    
+    const sendEmail = () => {
+        const name = document.querySelector('.form-name').value;
+        const email = document.querySelector('.form-email').value;
+        const message = document.querySelector('.message').value;
+        console.log(name, email, message);
+        const subject = `Message from ${name}`;
+        const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0A${message}`;
+        const mailtoLink = `mailto:kaclark219@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        window.location.href = mailtoLink;
+    };
 
     let currentImage = fallback;
     const showImage = (imgSrc) => {
@@ -152,11 +163,11 @@
         <div class="contact-right">
             <h2>Have a question for me?</h2>
             <div class="user-fill">
-                <input type="text" placeholder="Name"><br>
-                <input type="text" placeholder="Email"><br>
-                <input type="text" placeholder="Message" class="message"><br>
+                <input type="text" placeholder="Name" class="form-name"><br>
+                <input type="text" placeholder="Email" class="form-email"><br>
+                <textarea class="message" placeholder="Message"></textarea>
             </div>
-            <button class="contact-submission">Submit</button>
+            <button class="contact-submission" on:click={sendEmail}>Submit</button>
         </div>
     </div>
 

@@ -22,7 +22,9 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"emailjs": "^4.0.3",
 		"jquery": "^3.7.1",
+		"mailslurp-client": "^15.20.2",
 		"resend": "^4.0.1-alpha.0",
 		"slick-carousel": "^1.8.1",
 		"svelte-pdf": "^1.0.20"
