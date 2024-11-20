@@ -13,13 +13,7 @@
 
 @mixin respond($breakpoint) {
     $breakpointPX: ($breakpoint) * 1px;
-    @if $breakpointPX > 2000 {
-        @media (max-width: $breakpointPX) {
-            @content;
-        }
-    } @else {
-        @media (max-width: $breakpointPX) {
-            @content;
-        }
+    @media (max-width: $breakpointPX) {
+        @content;
     }
 }

@@ -72,7 +72,7 @@ p {
 .footer {
     margin-top: 60px;
     margin-bottom: 20px;
-    width: 1240px;
+    width: 90%;
     height: 260px;
     background-color: white;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -127,5 +127,31 @@ p {
     }
 }
 
+
+@include respond(600) {
+    h1 {
+        @include rm-font(18px);
+    }
+    h2 {
+        @include rm-font(18px);
+    }
+    h3 {
+        @include os-font(16px);
+    }
+    h4 {
+        @include os-font(14px);
+        font-weight: 600;
+        font-style: italic;
+    }
+    p {
+        @include os-font(14px);
+        line-height: 1.2;
+    }
+}
+
+
 @import 'sass/home';
 @import 'sass/projects';
+
+@import 'sass/home_mobile';
+@import 'sass/projects_mobile';
