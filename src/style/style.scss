@@ -86,8 +86,7 @@ p {
     .footer-socials {
         margin-top: 20px;
         display: flex;
-        justify-content: space-between;
-        padding-right: 520px;
+        gap: 10px;
     }
     .linkedin, .github, .instagram, .email {
         padding: 20px;
