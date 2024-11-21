@@ -162,9 +162,9 @@ p {
                 margin-top: 35px;
             }
             #nav-links {
-                @include os-font(12px);
+                @include os-font(14px);
                 justify-content: left;
-                gap: 40px;
+                gap: 30px;
             }
         }
     }

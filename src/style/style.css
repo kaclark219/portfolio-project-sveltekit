@@ -313,11 +313,11 @@ p {
     margin-top: 35px;
   }
   .nav-bar nav #nav-links {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     font-family: "Open Sans", Arial, sans-serif;
     justify-content: left;
-    gap: 40px;
+    gap: 30px;
   }
   .footer {
     width: 345px;
