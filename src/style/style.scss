@@ -148,18 +148,18 @@ p {
     }
 
     .nav-bar {
-        padding-top: 0px;
+        padding-top: 20px;
         margin-bottom: 10px;
         width: 100%;
         nav {
             padding: 0px 20px 20px 20px;
             .name-logo {
                 height: 30px;
-                margin-top: 40px;
+                margin-top: 10px;
             }
             .star-logo {
                 height: 40px;
-                margin-top: 35px;
+                margin-top: 5px;
             }
             #nav-links {
                 @include os-font(14px);

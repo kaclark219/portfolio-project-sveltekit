@@ -306,11 +306,11 @@ p {
   }
   .nav-bar nav .name-logo {
     height: 30px;
-    margin-top: 40px;
+    margin-top: 10px;
   }
   .nav-bar nav .star-logo {
     height: 40px;
-    margin-top: 35px;
+    margin-top: 5px;
   }
   .nav-bar nav #nav-links {
     font-size: 14px;
