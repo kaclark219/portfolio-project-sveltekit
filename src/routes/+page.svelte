@@ -125,15 +125,19 @@
         </div>
         <div class="skills-right">
             <div class="skills-images">
-                <img src={c} alt="C++ Programming Language Logo" class="greyscale language-icon">
-                <img src={java} alt="Java Programming Language Logo" class="greyscale language-icon">
-                <img src={python} alt="Python Programming Language Logo" class="greyscale language-icon">
-                <img src={html} alt="HTML Programming Language Logo" class="greyscale language-icon">
-                <img src={svelte} alt="Svelte Logo" class="greyscale technology-icon">
-                <img src={d3} alt="D3 Logo" class="greyscale technology-icon">
-                <img src={sass} alt="Sass Logo" class="greyscale technology-icon">
-                <img src={figma} alt="Figma Logo" class="greyscale tool-icon">
-                <img src={illustrator} alt="Adobe Illustrator Logo" class="greyscale tool-icon">
+                <div class="row">
+                    <img src={c} alt="C++ Programming Language Logo" class="greyscale language-icon">
+                    <img src={java} alt="Java Programming Language Logo" class="greyscale language-icon">
+                    <img src={python} alt="Python Programming Language Logo" class="greyscale language-icon">
+                    <img src={html} alt="HTML Programming Language Logo" class="greyscale language-icon">
+                </div>
+                <div class="row">
+                    <img src={svelte} alt="Svelte Logo" class="greyscale technology-icon">
+                    <img src={d3} alt="D3 Logo" class="greyscale technology-icon">
+                    <img src={sass} alt="Sass Logo" class="greyscale technology-icon">
+                    <img src={figma} alt="Figma Logo" class="greyscale tool-icon">
+                    <img src={illustrator} alt="Adobe Illustrator Logo" class="greyscale tool-icon">
+                </div>
             </div>
         </div>
     </div>
