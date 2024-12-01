@@ -2,4 +2,122 @@
 @import 'colors';
 
 @include respond(600) {
+    .project-nav {
+        padding: 15px 20px;
+        border-radius: 15px;
+        height: auto;
+        width: 330px;
+        .project-nav-list {
+            margin-top: 10px;
+            ul {
+                height: auto;
+                list-style-type: circle;
+                margin-left: 20px;
+                column-count: 1;
+                column-fill: auto;
+            }
+            li {
+                color: black;
+                @include os-font(14px);
+                line-height: 1.2;
+            }
+        }
+        .project-image {
+            opacity: 0;
+            z-index: -1;
+        }
+    }
+    .all-projects {
+        .project {
+            margin-top: 30px;
+            .project-title {
+                padding: 15px 20px;
+                border-radius: 15px;
+                height: auto;
+                width: 330px;
+                svg {
+                    margin-left: 5px;
+                }
+            }
+            .project-content {
+                margin-top: 10px;
+                height: auto;
+                width: 330px;
+                padding: 15px 20px;
+                border-radius: 15px;
+                display: flex;
+                flex-direction: column;
+                img {
+                    width: 290px;
+                    height: 200px;
+                    border-radius: 15px;
+                    overflow: hidden;
+                    object-fit: cover;
+                }
+                .project-text {
+                    margin-top: -15px;
+                    align-items: center;
+                    .project-description {
+                        @include os-font(14px);
+                        line-height: 1.2;
+                    }
+                    .project-tags {
+                        margin-top: 15px;
+                        gap: 5px;
+                        .tag {
+                            padding: 5px 10px;
+                            border-radius: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        .first {
+            margin-top: 0px;
+        }
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 20px;
+        border-radius: 15px;
+        width: 330px;
+        height: 320px;
+        margin-top: 30px;
+        .contact-left {
+            align-items: left;
+            img {
+                height: 80px;
+                width: auto;
+            }
+        }
+        .contact-right {
+            margin-top: -80px;
+            h2 {
+                width: 200px;
+                margin-bottom: 15px;
+            }
+        }
+        input, textarea {
+            border-radius: 15px;
+            background: #D9DFDA;
+            width: 290px;
+            height: 30px;
+            margin-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            @include os-font(14px);
+        }
+        .message {
+            padding-top: 10px;
+            height: 75px;
+        }
+        button {
+            padding: 5px 40px;
+            border-radius: 15px;
+            @include os-font(14px);
+            margin-top: 10px;
+        }
+    }
 }
