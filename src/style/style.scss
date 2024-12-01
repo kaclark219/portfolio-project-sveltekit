@@ -169,6 +169,7 @@ p {
         }
     }
     .footer {
+        margin-top: 30px;
         width: 345px;
         height: 105px;
         padding: 10px;
@@ -183,7 +184,7 @@ p {
         }
         .linkedin, .github, .instagram, .email {
             padding: 5px;
-            border-radius: 15px;
+            border-radius: 10px;
         }
         #footer-copyright {
             @include os-font(10px);

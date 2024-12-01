@@ -104,4 +104,52 @@
         }
     }
 
+    .project-spotlight {
+        margin-top: 30px;
+        width: 330px;
+        .project-header {
+            border-radius: 15px;
+            padding: 15px 20px;
+            width: 330px;
+            height: 55px;
+        }
+        .project {
+            gap: 10px;
+            margin-top: 10px;
+            width: 100%;
+            border-radius: 15px;
+            padding: 15px 20px;
+            .project-image {
+                position: relative;
+                width: 290px;
+                height: 200px;
+                border-radius: 15px;
+                overflow: visible;
+                .description {
+                    @include os-font(14px);
+                    line-height: 1.2;
+                    color: black;
+                    text-align: justify;
+                    width: 100%;
+                    position: absolute;
+                    top: 138%;
+                    left: 0;
+                    transform: translateY(0);
+                    opacity: 1;
+                    z-index: 1;
+                }
+            }
+            .project-image:hover .overlay,
+            .project-image:hover .description {
+                opacity: 0;
+            }
+            .project-tags {
+                gap: 5px;
+                .tag {
+                    padding: 5px 10px;
+                    border-radius: 15px;
+                }
+            }
+        }
+    }
 }

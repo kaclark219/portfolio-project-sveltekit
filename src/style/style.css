@@ -320,6 +320,7 @@ p {
     gap: 25px;
   }
   .footer {
+    margin-top: 30px;
     width: 345px;
     height: 105px;
     padding: 10px;
@@ -335,7 +336,7 @@ p {
   }
   .footer .linkedin, .footer .github, .footer .instagram, .footer .email {
     padding: 5px;
-    border-radius: 15px;
+    border-radius: 10px;
   }
   .footer #footer-copyright {
     font-size: 10px;
@@ -594,6 +595,11 @@ p {
   scroll-snap-type: x mandatory;
   padding-bottom: 15px;
 }
+@media (max-width: 600px) {
+  .project-list {
+    width: 100%;
+  }
+}
 
 .project {
   flex: 0 0 auto;
@@ -602,6 +608,11 @@ p {
 
 .project-list::-webkit-scrollbar {
   height: 15px;
+}
+@media (max-width: 600px) {
+  .project-list::-webkit-scrollbar {
+    height: 10px;
+  }
 }
 
 .project-list::-webkit-scrollbar-track {
@@ -936,5 +947,55 @@ p {
   }
   .skills .greyscale {
     height: 50px;
+  }
+  .project-spotlight {
+    margin-top: 30px;
+    width: 330px;
+  }
+  .project-spotlight .project-header {
+    border-radius: 15px;
+    padding: 15px 20px;
+    width: 330px;
+    height: 55px;
+  }
+  .project-spotlight .project {
+    gap: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 15px 20px;
+  }
+  .project-spotlight .project .project-image {
+    position: relative;
+    width: 290px;
+    height: 200px;
+    border-radius: 15px;
+    overflow: visible;
+  }
+  .project-spotlight .project .project-image .description {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 1.2;
+    color: black;
+    text-align: justify;
+    width: 100%;
+    position: absolute;
+    top: 138%;
+    left: 0;
+    transform: translateY(0);
+    opacity: 1;
+    z-index: 1;
+  }
+  .project-spotlight .project .project-image:hover .overlay,
+  .project-spotlight .project .project-image:hover .description {
+    opacity: 0;
+  }
+  .project-spotlight .project .project-tags {
+    gap: 5px;
+  }
+  .project-spotlight .project .project-tags .tag {
+    padding: 5px 10px;
+    border-radius: 15px;
   }
 }/*# sourceMappingURL=style.css.map */
