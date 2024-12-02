@@ -83,7 +83,7 @@
     <div class="all-projects">
         <div class="project first" id="make-it-make-cents">
             <div class="project-title">
-                <h2>Make It Make Cents (November 2024)</h2>
+                <h2>Make It Make Cents <i>(November 2024)</i></h2>
                 <a href="https://devpost.com/software/make-it-make-cents" target="_blank">
                     <svg width="800px" height="800px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><path d="M6.002 1.61 0 12.004 6.002 22.39h11.996L24 12.004 17.998 1.61zm1.593 4.084h3.947c3.605 0 6.276 1.695 6.276 6.31 0 4.436-3.21 6.302-6.456 6.302H7.595zm2.517 2.449v7.714h1.241c2.646 0 3.862-1.55 3.862-3.861.009-2.569-1.096-3.853-3.767-3.853z"/></svg>
                 </a>
@@ -106,7 +106,7 @@
         </div>
         <div class="project" id="pharaohs-gambit">
             <div class="project-title">
-                <h2>Pharaoh's Gambit (September 2024)</h2>
+                <h2>Pharaoh's Gambit <i>(September 2024)</i></h2>
                 <a href="https://mod.io/g/tabletopplayground/m/pharaohs-gambit" target="_blank">
                     <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 217.97 230.70987654320987" style="max-height: 500px" width="217.97" height="230.70987654320987">
                         <g>
@@ -133,7 +133,7 @@
         </div>
         <div class="project" id="pos-web-app">
             <div class="project-title">
-                <h2>Fast Food POS Web Application (March-May 2024)</h2>
+                <h2>Fast Food POS Web Application <i>(March-May 2024)</i></h2>
                 <a href="https://github.com/csce-315-331-2024a/project-3-full-stack-agile-web-project-3-team-11" target="_blank">
                     <svg width="50" height="50" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/></svg>
                 </a>
@@ -150,6 +150,178 @@
                         <p class="tag language">HTML</p>
                         <p class="tag technology">React</p>
                         <p class="tag technology">Node.js</p>
+                        <p class="tag tool">Adobe XD</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project" id="marketplace">
+            <div class="project-title">
+                <h2>Marketplace Sales System <i>(April 2024)</i></h2>
+            </div>
+            <div class="project-content">
+                <img src={marketplace} alt="Marketplace Sales System Screenshot">
+                <div class="project-text">
+                    <p class="project-description">I designed a desktop application connecting to a Redis DB using Java to list products for sale and purchase products through a user-based transaction system, as well as implemented a web server using a RESTful template to search items for sale within a particular price range.</p>
+                    <div class="project-tags">
+                        <p class="tag language">Java</p>
+                        <p class="tag technology">NoSQL</p>
+                        <p class="tag technology">RESTful API</p>
+                        <p class="tag tool">Redis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project" id="tea-brand">
+            <div class="project-title">
+                <h2>Tea Brand Creation <i>(March-April 2024)</i></h2>
+                <a href="https://drive.google.com/file/d/1oXKeAFa19YhbUjvZy_7piz4aISLeEAR-/view?usp=sharing" target="_blank">
+                    <svg viewBox="0 0 87.3 78" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m6.6 66.85 3.85 6.65c.8 1.4 1.95 2.5 3.3 3.3l13.75-23.8h-27.5c0 1.55.4 3.1 1.2 4.5z" fill="#557C5A"/>
+                        <path d="m43.65 25-13.75-23.8c-1.35.8-2.5 1.9-3.3 3.3l-25.4 44a9.06 9.06 0 0 0 -1.2 4.5h27.5z"/>
+                        <path d="m73.55 76.8c1.35-.8 2.5-1.9 3.3-3.3l1.6-2.75 7.65-13.25c.8-1.4 1.2-2.95 1.2-4.5h-27.502l5.852 11.5z" fill="#557C5A"/>
+                        <path d="m43.65 25 13.75-23.8c-1.35-.8-2.9-1.2-4.5-1.2h-18.5c-1.6 0-3.15.45-4.5 1.2z" fill="#557C5A"/>
+                        <path d="m59.8 53h-32.3l-13.75 23.8c1.35.8 2.9 1.2 4.5 1.2h50.8c1.6 0 3.15-.45 4.5-1.2z"/>
+                        <path d="m73.4 26.5-12.7-22c-.8-1.4-1.95-2.5-3.3-3.3l-13.75 23.8 16.15 28h27.45c0-1.55-.4-3.1-1.2-4.5z"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="project-content">
+                <img src={tea_brand} alt="Tea Can Mockup">
+                <div class="project-text">
+                    <p class="project-description">I created a brand identity, values, logos, product packaging, and a brand book for a tea brand called Brewscape. The brand book includes patterns, mockups, and typography/color details.</p>
+                    <div class="project-tags">
+                        <p class="tag tool">Adobe Photoshop</p>
+                        <p class="tag tool">Adobe Illustrator</p>
+                        <p class="tag tool">Adobe InDesign</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project" id="font-brochure">
+            <div class="project-title">
+                <h2>Times New Roman Brochure <i>(March 2024)</i></h2>
+            </div>
+            <div class="project-content">
+                <img src={font_brochure} alt="Brochure Mockup">
+                <div class="project-text">
+                    <p class="project-description">I did research on the history of Times New Roman and created a brochure using Adobe InDesign highlighting the features of the typography and its origin.</p>
+                    <div class="project-tags">
+                        <p class="tag tool">Adobe Photoshop</p>
+                        <p class="tag tool">Adobe InDesign</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project" id="pos-system">
+            <div class="project-title">
+                <h2>Rev's Point-of-Sale System <i>(February-March 2024)</i></h2>
+                <a href="https://github.com/csce-315-331-2024a/project-2-database-gui-group-901-11" target="_blank">
+                    <svg width="50" height="50" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/></svg>
+                </a>
+            </div>
+            <div class="project-content">
+                <img src={pos_system} alt="POS System Screenshot">
+                <div class="project-text">
+                    <p class="project-description">I designed database entities and interactions for a local fast food company's operations as part of a Waterfall team, which was connected to a AWS-hosted database to the front-end application using PostgreSQL and Java Swing to create a manager interface for tracking sales patterns plus an employee interface for taking customer orders.</p>
+                    <div class="project-tags">
+                        <p class="tag language">Java</p>
+                        <p class="tag technology">Java Swing</p>
+                        <p class="tag technology">PostgreSQL</p>
+                        <p class="tag tool">Waterfall</p>
+                        <p class="tag technology">AWS Database Servers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project" id="adventure-game">
+            <div class="project-title">
+                <h2>Text-Based Adventure Game <i>(February 2024)</i></h2>
+                <a href="https://kaclark219.itch.io/hanging-on" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="235.452" width="261.728" viewBox="0 0 245.371 220.736"><path d="M31.99 1.365C21.287 7.72.2 31.945 0 38.298v10.516C0 62.144 12.46 73.86 23.773 73.86c13.584 0 24.902-11.258 24.903-24.62 0 13.362 10.93 24.62 24.515 24.62 13.586 0 24.165-11.258 24.165-24.62 0 13.362 11.622 24.62 25.207 24.62h.246c13.586 0 25.208-11.258 25.208-24.62 0 13.362 10.58 24.62 24.164 24.62 13.585 0 24.515-11.258 24.515-24.62 0 13.362 11.32 24.62 24.903 24.62 11.313 0 23.773-11.714 23.773-25.046V38.298c-.2-6.354-21.287-30.58-31.988-36.933C180.118.197 157.056-.005 122.685 0c-34.37.003-81.228.54-90.697 1.365zm65.194 66.217a28.025 28.025 0 0 1-4.78 6.155c-5.128 5.014-12.157 8.122-19.906 8.122a28.482 28.482 0 0 1-19.948-8.126c-1.858-1.82-3.27-3.766-4.563-6.032l-.006.004c-1.292 2.27-3.092 4.215-4.954 6.037a28.5 28.5 0 0 1-19.948 8.12c-.934 0-1.906-.258-2.692-.528-1.092 11.372-1.553 22.24-1.716 30.164l-.002.045c-.02 4.024-.04 7.333-.06 11.93.21 23.86-2.363 77.334 10.52 90.473 19.964 4.655 56.7 6.775 93.555 6.788h.006c36.854-.013 73.59-2.133 93.554-6.788 12.883-13.14 10.31-66.614 10.52-90.474-.022-4.596-.04-7.905-.06-11.93l-.003-.045c-.162-7.926-.623-18.793-1.715-30.165-.786.27-1.757.528-2.692.528a28.5 28.5 0 0 1-19.948-8.12c-1.862-1.822-3.662-3.766-4.955-6.037l-.006-.004c-1.294 2.266-2.705 4.213-4.563 6.032a28.48 28.48 0 0 1-19.947 8.125c-7.748 0-14.778-3.11-19.906-8.123a28.025 28.025 0 0 1-4.78-6.155 27.99 27.99 0 0 1-4.736 6.155 28.49 28.49 0 0 1-19.95 8.124c-.27 0-.54-.012-.81-.02h-.007c-.27.008-.54.02-.813.02a28.49 28.49 0 0 1-19.95-8.123 27.992 27.992 0 0 1-4.736-6.155zm-20.486 26.49l-.002.01h.015c8.113.017 15.32 0 24.25 9.746 7.028-.737 14.372-1.105 21.722-1.094h.006c7.35-.01 14.694.357 21.723 1.094 8.93-9.747 16.137-9.73 24.25-9.746h.014l-.002-.01c3.833 0 19.166 0 29.85 30.007L210 165.244c8.504 30.624-2.723 31.373-16.727 31.4-20.768-.773-32.267-15.855-32.267-30.935-11.496 1.884-24.907 2.826-38.318 2.827h-.006c-13.412 0-26.823-.943-38.318-2.827 0 15.08-11.5 30.162-32.267 30.935-14.004-.027-25.23-.775-16.726-31.4L46.85 124.08C57.534 94.073 72.867 94.073 76.7 94.073zm45.985 23.582v.006c-.02.02-21.863 20.08-25.79 27.215l14.304-.573v12.474c0 .584 5.74.346 11.486.08h.006c5.744.266 11.485.504 11.485-.08v-12.474l14.304.573c-3.928-7.135-25.79-27.215-25.79-27.215v-.006l-.003.002z"/></svg>
+                </a>
+            </div>
+            <div class="project-content">
+                <img src={adventure_game} alt="Adventure Game Screenshot">
+                <div class="project-text">
+                    <p class="project-description">I designed and programmed a text-based horror/adventure game within 48 hours for Chillenium 2024 in Java which included dozens of story paths, health & mentality bars tracked depending on choices made by the player, & an adaptive player inventory used to shape future player story choices.</p>
+                    <div class="project-tags">
+                        <p class="tag language">Java</p>
+                        <p class="tag technology">Java Swing</p>
+                        <p class="tag tool">Adobe Photoshop</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project" id="connect4">
+            <div class="project-title">
+                <h2>Connect 4 Game <i>(December 2023)</i></h2>
+                <a href="https://github.com/kaclark219/connect4" target="_blank">
+                    <svg width="50" height="50" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/></svg>
+                </a>
+            </div>
+            <div class="project-content">
+                <img src={connect4} alt="Connect 4 Game Screenshot">
+                <div class="project-text">
+                    <p class="project-description">I designed & implemented a fully functional Connect 4 game using JavaFX with features including (but not limited to): a one-player mode with multiple difficulty levels, save/upload functionality, an additional written log of the moves & wins from each player, an engaging GUI with player error handling, & a modular object-oriented design. The audience in mind was adults ranged 40-70 years old, so I went with a very classic design & easy to use interface.</p>
+                    <div class="project-tags">
+                        <p class="tag language">Java</p>
+                        <p class="tag technology">JavaFX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project" id="ray-tracer">
+            <div class="project-title">
+                <h2>Ray Tracer <i>(October-November 2023)</i></h2>
+                
+            </div>
+            <div class="project-content">
+                <img src={ray_tracer} alt="Spheres Produced by Ray Tracer">
+                <div class="project-text">
+                    <p class="project-description">For a course project, I wrote a recursive ray tracer in OpenGL using C++ and tinyobjloader that can handle spheres, planes, imported .obj geometry, as well as mirrored surfaces and multiple light sources/shadows. The entire scene can render in about 3 seconds in release mode.</p>
+                    <div class="project-tags">
+                        <p class="tag language">C++</p>
+                        <p class="tag technology">OpenGL</p>
+                        <p class="tag technology">tinyobjloader</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project" id="todo-extension">
+            <div class="project-title">
+                <h2>To-Do Extension <i>(July 2023)</i></h2>
+                <a href="https://github.com/kaclark219/todolistextension" target="_blank">
+                    <svg width="50" height="50" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/></svg>
+                </a>
+            </div>
+            <div class="project-content">
+                <img src={todo} alt="To-Do Extension Screenshot">
+                <div class="project-text">
+                    <p class="project-description">I designed and programmed a Google Chrome extension in JavaScript, HTML, and CSS that allows users to track to-dos while they're working. This extension has local private data storage, an interface that helps users with hover indications, etc..</p>
+                    <div class="project-tags">
+                        <p class="tag language">JavaScript</p>
+                        <p class="tag language">HTML</p>
+                        <p class="tag technology">CSS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project" id="sizesort">
+            <div class="project-title">
+                <h2>SizeSort Game <i>(January 2023)</i></h2>
+                <a href="https://devpost.com/software/sizesort" target="_blank">
+                    <svg width="800px" height="800px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><path d="M6.002 1.61 0 12.004 6.002 22.39h11.996L24 12.004 17.998 1.61zm1.593 4.084h3.947c3.605 0 6.276 1.695 6.276 6.31 0 4.436-3.21 6.302-6.456 6.302H7.595zm2.517 2.449v7.714h1.241c2.646 0 3.862-1.55 3.862-3.861.009-2.569-1.096-3.853-3.767-3.853z"/></svg>
+                </a>
+            </div>
+            <div class="project-content">
+                <img src={sizesort} alt="SizeSort Game Screenshot">
+                <div class="project-text">
+                    <p class="project-description">Created for an MLH Hackathon, this game uses drag and drop dynamics in order to teach about sizes and orders in early elementary math topics. It's designed in a way that is easily 'win-able' to give students a feeling of accomplishment while learning and encourage academia. In addition to the base Unity includes, I also used UnityEngine.SceneManagement. The demo consists of four major scenes, which loop through the levels with an in-game clickable transition system. I also designed all the graphics, including the background, objects, containers, and text, myself using Procreate.</p>
+                    <div class="project-tags">
+                        <p class="tag language">C#</p>
+                        <p class="tag tool">Unity</p>
+                        <p class="tag tool">Procreate</p>
                     </div>
                 </div>
             </div>

@@ -174,6 +174,7 @@
                     <p class="tag language">HTML</p>
                     <p class="tag technology">React</p>
                     <p class="tag technology">Node.js</p>
+                    <p class="tag tool">Adobe XD</p>
                 </div>
             </div>
             <div class="project">
