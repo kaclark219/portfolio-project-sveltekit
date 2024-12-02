@@ -1041,6 +1041,9 @@ p {
   .all-projects .project .project-title svg {
     margin-left: 5px;
   }
+  .all-projects .project .project-title i {
+    font-style: italic;
+  }
   .all-projects .project .project-content {
     margin-top: 10px;
     height: auto;
@@ -1060,7 +1063,7 @@ p {
   }
   .all-projects .project .project-content .project-text {
     margin-top: -15px;
-    align-items: center;
+    align-items: left;
   }
   .all-projects .project .project-content .project-text .project-description {
     font-size: 14px;
