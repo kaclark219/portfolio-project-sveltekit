@@ -56,13 +56,12 @@
                 }
                 .project-text {
                     margin-top: -15px;
-                    align-items: center;
+                    align-items: left;
                     .project-description {
                         @include os-font(14px);
                         line-height: 1.2;
                     }
                     .project-tags {
-                        align-items: left;
                         margin-top: 15px;
                         gap: 5px;
                         .tag {
