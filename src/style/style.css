@@ -713,6 +713,9 @@ p {
   justify-content: flex-end;
   align-items: center;
 }
+.all-projects .project .project-title i {
+  font-style: italic;
+}
 .all-projects .project .project-content {
   margin-top: 10px;
   height: 350px;
@@ -1040,9 +1043,6 @@ p {
   }
   .all-projects .project .project-title svg {
     margin-left: 5px;
-  }
-  .all-projects .project .project-title i {
-    font-style: italic;
   }
   .all-projects .project .project-content {
     margin-top: 10px;
