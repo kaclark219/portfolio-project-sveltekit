@@ -20,6 +20,8 @@
     import sizesort from '$lib/assets/sizesort.png'
     import fallback from '$lib/assets/fallback.png'
     import mimc from '$lib/assets/mimc.png'
+    import readers_recs from '$lib/assets/readers-recs.png'
+    import spotify_visualizer from '$lib/assets/spotify-visualizer.png'
     
     const sendEmail = () => {
         const name = document.querySelector('.form-name').value;
@@ -64,6 +66,8 @@
         <h2 id="project-nav-header">My Projects</h2>
         <div class="project-nav-list">
             <ul id="project-nav-list">
+                <li><a href="#readers-recs" on:mouseenter={() => showImage(readers_recs)} on:mouseleave={hideImage}>Reader's Recs</a></li>
+                <li><a href="#spotify-visualizer" on:mouseenter={() => showImage(spotify_visualizer)} on:mouseleave={hideImage}>Spotify Music Visualizer</a></li>
                 <li><a href="#make-it-make-cents" on:mouseenter={() => showImage(mimc)} on:mouseleave={hideImage}>Make it Make Cents</a></li>
                 <li><a href="#pharaohs-gambit" on:mouseenter={() => showImage(pharaohs_gambit)} on:mouseleave={hideImage}>Pharaoh's Gambit</a></li>
                 <li><a href="#pos-web-app" on:mouseenter={() => showImage(pos_webapp)} on:mouseleave={hideImage}>Fast Food POS Web Application</a></li>
@@ -81,7 +85,53 @@
         <img class="project-image" src={currentImage} alt=""/>
     </div>
     <div class="all-projects">
-        <div class="project first" id="make-it-make-cents">
+        <div class="project first" id="readers-recs">
+            <div class="project-title">
+                <h2>Reader's Recs <i>(February-May 2025)</i></h2>
+                <a href="https://github.com/kaclark219/Readers-Recs" target="_blank">
+                    <svg width="50" height="50" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/></svg>
+                </a>
+            </div>
+            <div class="project-content">
+                <img src={readers_recs} alt="Website Screenshot">
+                <div class="project-text">
+                    <p class="project-description">Reader's Recs is a social cataloging platform for readers, offering personalized book recommendations powered by a machine learning algorithm built with Scikit-learn, NumPy, and SentenceTransformers. Personally, I designed and implemented the front-end of the platform, creating an intuitive user interface with custom pop-ups, dynamic content, and interactive features. I also helped integrate the front-end with back-end services to ensure smooth, seamless user experiences. With the assistance of other team members, I also lead rounds of user testing to ensure that the platform was intuitive and comfortable to use.</p>
+                    <div class="project-tags">
+                        <p class="tag language">JavaScript</p>
+                        <p class="tag technology">React</p>
+                        <p class="tag technology">Node.js</p>
+                        <p class="tag language">Python</p>
+                        <p class="tag technology">Flask</p>
+                        <p class="tag technology">Sass</p>
+                        <p class="tag technology">MongoDB</p>
+                        <p class="tag tool">Figma</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project" id="spotify-visualizer">
+            <div class="project-title">
+                <h2>Spotify Music Visualizer <i>(March-April 2025)</i></h2>
+                <a href="https://github.com/kaclark219/Spotify-Music-Visualizer" target="_blank">
+                    <svg width="50" height="50" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/></svg>
+                </a>
+            </div>
+            <div class="project-content">
+                <img src={spotify_visualizer} alt="Web App Screenshot">
+                <div class="project-text">
+                    <p class="project-description">The Spotify Music Visualizer web application is a real-time music visualization tool connected to Spotify's Web Playback API. It generates dynamic 3D visualizations based on song data, including BPM and frequency, while analyzing audio features like frequency and volume in real time. I developed the front-end to create a reactive user interface that adapts colors and styles based on user preferences and the genre of the music, delivering an engaging and customizable listening experience.</p>
+                    <div class="project-tags">
+                        <p class="tag technology">Svelte</p>
+                        <p class="tag language">TypeScript</p>
+                        <p class="tag technology">Three.js</p>
+                        <p class="tag technology">WebGL</p>
+                        <p class="tag technology">Spotify Web API</p>
+                        <p class="tag technology">Web Audio API</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project" id="make-it-make-cents">
             <div class="project-title">
                 <h2>Make It Make Cents <i>(November 2024)</i></h2>
                 <a href="https://devpost.com/software/make-it-make-cents" target="_blank">
